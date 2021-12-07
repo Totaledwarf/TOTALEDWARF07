@@ -1,0 +1,64 @@
+* {
+    margem :  0 ;
+    preenchimento :  0 ;
+    dimensionamento da caixa : caixa de borda;
+ }
+corpo {
+    largura :  100 % ;
+    altura :  100 % ;
+    cor de fundo : amêndoa blanched;
+    preenchimento :  10 px ;;
+} 
+ # titulo {
+     cor : azul;
+     estilo da fonte : italico;
+     display : flex;
+     alinhar-itens : centro;
+     justificar-conteúdo : centro;
+ }
+ # foto {
+     raio da borda :  10 px ;
+     display : flex;
+     alinhar-itens : centro;
+     justificar-conteúdo : centro;   
+    }
+
+/* #cardápio {
+    display: flex;
+    direção flexível: fileira;
+    alinhar-itens: centro;
+    justificar-conteúdo: centro;
+} * /
+
+# ul {
+ 
+        alinhar-itens : centro;
+        fundo :  # 000 ;
+        / * color: #fff; * /
+        display : flex;
+        flutuar : esquerda;
+        justify-content : space-around;
+        largura :  100 % ;
+        
+    
+}
+. li {
+    borda inferior :  2 px sólido aqua;
+    cor de fundo :  # 000 ;
+    cor :  # fff ;
+    tamanho da fonte :  2 rem ;
+    preenchimento :  20 px ;
+    alinhamento de texto : centro;
+    decoração de texto : nenhum;
+    largura :  100 % ;
+  }
+  . li : hover {
+    fundo :  # fff ;
+    cor :  # 000 ;
+  }
+  . buscar {
+      display : flex;
+      alinhar-itens : centro;
+      justificar-conteúdo : centro;
+     margem inferior :  10 px ;
+  }
